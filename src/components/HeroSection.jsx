@@ -8,7 +8,7 @@ import RightTick from '../assets/images/svg/right-tick-mark.svg'
 
 function HeroSection() {
   return (
-    <div className='hero-bg-img min-vh-100 h_lg_954 h_700 pt-14 d-flex flex-column'>
+    <div className='hero-bg-img min-vh-100 h_lg_954 h_md_700 h-500 pt-14 d-flex flex-column'>
       <div className="container">
         <div className='d-flex align-items-center justify-content-lg-between gap-lg-0 gap-4 ps-5 pe-5 overflow-x-auto'>
           <div className='d-flex gap-10'>
@@ -50,7 +50,7 @@ function HeroSection() {
           </div>
         </div>
         </div>
-        <div  className='d-flex flex-column flex_grow align_items_center justify_content_center pt-lg-87 pt-md-40 pt-20 '>
+        <div  className='d-flex flex-column flex_grow align_items_center justify_content_center pt-lg-87 pt-40  '>
           <div className='container'>
             <h1 className='fw-bold text-96 lh-115 ff-titling clr-white max-w-730 mx-auto text-center mb-0 pb-16'>Automotive Dry Ice Cleaning</h1>
             <p className='fw-normal text-20 lh-30 ff-acumin clr-white text-center mb-0 '>Discover the ultimate clean for your machine.
@@ -60,7 +60,7 @@ function HeroSection() {
                 <button className='fw-bold text-16 lh-19 ff-acumin clr-white btnn btn-style text-nowrap '>Get Instant Quote</button>
                 </div>
                 <div className='small_box mx-auto mt-lg-39 mt-md-25 mt-15'>
-                  <div className='d-flex align-items-center justify-content-between flex-wrap'>
+                  <div className='d-flex align-items-center justify-content-between flex-wrap gap-3'>
                     <div className='d-flex gap_12'>
                       <img src={RightTick} alt="RightTick"/>
                       <p className='fw-bold text-16 lh-24 ff-acumin clr-white mb-0'>Non-Abrasive</p>
