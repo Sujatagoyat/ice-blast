@@ -1,38 +1,243 @@
-.App {
-  text-align: center;
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+}
+:root {
+ 
+  --fs-xxs: 14px;
+  --fs-xs: 16px;
+  --fs-sm: 18px;
+  --fs-md: 20px;
+  --fs-2md: 24px;
+  --fs-lg: 28px;
+  --fs-xl: 32px;
+  --fs-2xl: 48px;
+  --fs-3xl: 96px;
+  /* ------------ font clr--------- */
+  --fc-white: #FFFFFF;
+  --fc-black: #000000;
+  --fc-orange: #FA6A00;
+  --fc-grey:  #636363;
+  --fc-blue: #101A2E;
+
+  /* --fc-lightblack: #4D4D4D; */
+}
+/* }================= color =================== */
+.clr-white{
+  color: var(--fc-white);
+}
+.clr-grey{
+  color: var(--fc-grey);
+}
+.clr-orange{
+  color: var(--fc-orange);
+}
+/* ====================== font size ========================= */
+.text-14 {
+  font-size: var(--fs-xxxs);
+}
+.text-16 {
+  font-size: var(--fs-xs);
+}
+.text-18 {
+  font-size: var(--fs-sm);
+}
+.text-20 {
+  font-size: var(--fs-md);
+}
+.text-24 {
+  font-size: var(--fs-2md);
+}
+.text-28 {
+  font-size: var(--fs-lg);
+}
+.text-32 {
+  font-size: var(--fs-xl);
+}
+.text-48 {
+  font-size: var(--fs-2xl);
+}
+.text-96{
+  font-size: var(--fs-3xl);
+}
+/* ====================== line height =============================== */
+.lh-14 {
+  line-height: 14px;
+}
+.lh-16{
+  line-height: 16.8px;
+}
+.lh-19 {
+  line-height: 19.2px;
+}
+.lh-21{
+  line-height: 21.6px;
+}
+.lh-22{
+  line-height: 22.4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lh-24 {
+  line-height: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.lh-25 {
+  line-height: 25.6px;
+}
+
+.lh-27 {
+  line-height: 27px;
+}
+
+.lh-30 {
+  line-height: 30px;
+}
+
+.lh-33 {
+  line-height: 33.6px;
+}
+
+.lh-43 {
+  line-height: 28.57px;
+}
+
+.lh-36 {
+  line-height: 36px;
+}
+
+.lh-39 {
+  line-height: 39.2px;
+}
+
+.lh-44 {
+  line-height: 44.8px;
+}
+
+.lh-57 {
+  line-height: 57.6px;
+}
+
+.lh-115 {
+  line-height: 115.2px;
+}
+/* ==================== font weight =================== */
+.fw-normal{
+  font-weight: 400;
+}
+.fw-bold{
+  font-weight: 700;
+}
+.fw-semibold{
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Acumin Pro',sans-serif;
+  src: url(./assets/Font/acumin-pro-cufonfonts/Acumin-BdItPro.otf);
+}
+.ff-acumin{
+  font-family:'Acumin Pro',sans-serif; ;
+}
+@font-face {
+  font-family: 'TitlingGothicFB Cond',sans-serif;
+  src: url(./assets/Font/titling-gothic-fb-font-family2/TitlingGothicFBNor-Reg-AF65ddb13687017.otf)
+}
+.ff-titling{
+  font-family:'TitlingGothicFB Cond',sans-serif; ;
+}
+.hero-bg-img{
+  background-image: url(./assets/images/png/hero-bg-img.png);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.opacity_70{
+  opacity: 70%;
+}
+.gap-10{
+  gap: 10px;
+}
+.pt-14{
+  padding-top: 14px;
+}
+.nav_box{
+  /* max-width: 1230px; */
+  width: 100%;
+  padding: 9px 45px;
+  /* height: 70px; */
+  background: var(--fc-white);
+  border-radius: 16px;
+}
+.gap-24{
+  gap: 24px;
+}
+.call-btn{
+  padding: 20px;
+  border-radius: 84px;
+  background: var(--fc-orange);
+  box-shadow: 0px 0px 26.2px 0px #FA6A0099;
+border: 1px solid transparent;
+}
+.mt-14{
+  margin-top: 14px;
+}
+.d_none{
+  display: none;
+}
+
+
+  @media (max-width:992px) {
+    label[for="menu-icon"] {
+      width: 40px !important;
+      height: 27px !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      z-index: 5;
+  
+    }
+    label[for="menu-icon"]>span {
+      width: 100%;
+      height: 4px;
+      background: var(--fc-orange);
+      position: relative;
+      z-index: 2;
+  
+    }
+    .menulist {
+      flex-direction: column;
+      background-color:var(--fc-blue);
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      transition: all 200ms linear;
+      align-items: center;
+      justify-content: center;
+      z-index: 4;
+    }
+  
+    input:checked~ul.menulist {
+      right: 0;
+    }
+}
+@media (min-width:576px) and (max-width:991.99px) {
+  .diplay_property{
+    display: block;
+  }
+}
+@media (min-width:992px) {
+  .diplay_property{
+    display: none !important;
+  }
+  label {
+    display: none !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
