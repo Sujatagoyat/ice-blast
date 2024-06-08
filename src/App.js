@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import HeroSection from './components/HeroSection'
 import FutureCar from './components/FutureCar';
 import Understanding from './components/Understanding';
+import WhyChoose from './components/WhyChoose'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <div>
       <HeroSection/> 
       <FutureCar/>
-      <Understanding/>  
+      <Understanding/>
+      <WhyChoose/>  
     </div>
   );
 }
