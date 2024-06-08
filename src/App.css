@@ -364,7 +364,9 @@ background: var(--fc-orange);
 .mb-15{
   margin-bottom: 15px;
 }
-
+ .pb-20{
+  padding-bottom: 20px;
+}
 
 .mb-10{
   margin-bottom: 10px;
@@ -499,6 +501,10 @@ background: var(--fc-orange);
   .mb-md-28{
     margin-bottom: 28px;
   }
+  .pb-md-60{
+    padding-bottom: 60px;
+  }
+ 
 }
 
 @media (min-width:992px) {
@@ -574,6 +580,9 @@ background: var(--fc-orange);
   }
   .mb-lg-48{
     margin-bottom: 48px;
+  }
+  .pb-lg-121{
+    padding-bottom: 121px;
   }
  
 }

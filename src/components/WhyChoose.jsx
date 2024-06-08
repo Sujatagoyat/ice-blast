@@ -8,7 +8,7 @@ import SafeImg from '../assets/images/svg/safe-svg.svg'
 
 function WhyChoose() {
   return (
-    <div>
+    <div className='pb-lg-121 pb-md-60 pb-20'>
       <div className='container'>
         <h1 className='fw-bold text-48 lh-57 clr-black ff-titling text-center mb-lg-48 mb-md-28 mb-15'>Why Choose Dry Ice Blasting for Your Car?</h1>
         <div className="row flex-lg-row flex-column-reverse row-gap-lg-0 row-gap-md-5 row-gap-4">
