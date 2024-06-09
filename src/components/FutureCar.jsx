@@ -2,8 +2,11 @@ import React from 'react'
 import FutureRight from '../assets/images/svg/future_right.svg'
 import FutureCarImg from '../assets/images/png/future_car_img.png'
 
+
+
 function FutureCar() {
   return (
+   
     <div className='future-bg-img'>
         <div className="container">
             <div className="row pt-lg-99 pt-md-60 pt-40 flex-lg-row flex-column-reverse row-gap-4">
@@ -41,9 +44,9 @@ function FutureCar() {
                 <div className='max-w-172 mx-auto '>
                 <button className='fw-bold text-16 lh-19 ff-acumin clr-white btnn btn-style text-nowrap mt-md-20 mt-10 '>Get Instant Quote</button>
             </div>
-            
+            </div>
         </div>
-    </div>
+   
   )
 }
 

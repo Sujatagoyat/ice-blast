@@ -371,6 +371,23 @@ background: var(--fc-orange);
 .mb-10{
   margin-bottom: 10px;
 }
+.max-w-680{
+  max-width: 680px;
+}
+.max-w-lg-1140{
+  max-width: 1140px;
+}
+/* ================================ behind the scene ================================================= */
+.behind-bg-img{
+  background-image: url(./assets/images/png/bts-bg-img.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.max-w-592{
+  max-width: 592px;
+}
+
 @media (max-width:992px) {
   label[for="menu-icon"] {
     width: 40px !important;
@@ -583,6 +600,12 @@ background: var(--fc-orange);
   }
   .pb-lg-121{
     padding-bottom: 121px;
+  }
+  .mt-lg-40{
+    margin-top: 40px;
+  }
+  .mb-lg-50{
+    margin-bottom: 50px;
   }
  
 }

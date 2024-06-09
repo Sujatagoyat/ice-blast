@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection'
 import FutureCar from './components/FutureCar';
 import Understanding from './components/Understanding';
 import WhyChoose from './components/WhyChoose'
+import BehindScenes from './components/BehindScenes';
 
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
       <HeroSection/> 
       <FutureCar/>
       <Understanding/>
-      <WhyChoose/>  
+      <WhyChoose/> 
+      <BehindScenes/>
+       
     </div>
   );
 }
