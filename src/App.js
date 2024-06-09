@@ -7,6 +7,7 @@ import FutureCar from './components/FutureCar';
 import Understanding from './components/Understanding';
 import WhyChoose from './components/WhyChoose'
 import BehindScenes from './components/BehindScenes';
+import GetContestant from './components/GetContestant';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <Understanding/>
       <WhyChoose/> 
       <BehindScenes/>
-       
+      <GetContestant/> 
     </div>
   );
 }
