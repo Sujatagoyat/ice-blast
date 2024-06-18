@@ -8,6 +8,7 @@ import Understanding from './components/Understanding';
 import WhyChoose from './components/WhyChoose'
 import BehindScenes from './components/BehindScenes';
 import GetContestant from './components/GetContestant';
+import MeetTeam from './components/MeetTeam';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Understanding/>
       <WhyChoose/> 
       <BehindScenes/>
-      <GetContestant/> 
+      <GetContestant/>
+      <MeetTeam/> 
     </div>
   );
 }

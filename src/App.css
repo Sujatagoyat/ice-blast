@@ -402,6 +402,12 @@ background: var(--fc-orange);
 .opacity_80{
   opacity: 80%;
 }
+.max-w-440{
+  max-width: 440px;
+}
+/* =========================== meet the team =============================================== */
+
+
 
 @media (max-width:992px) {
   label[for="menu-icon"] {
@@ -647,7 +653,19 @@ background: var(--fc-orange);
     border-radius: 14px;
     padding: 37px 185px;
   }
- 
+  .max-w-613{
+    max-width: 613px;
+  }
+  .Meet-pstn{
+    top: 0;
+    left: 36px;
+  }
+  .mt-lg-223{
+    margin-top: 223px !important;
+  }
+  .max-w-lg-611{
+    max-width: 611px;
+  }
 }
 @media (min-width:1200px) {
  .max_w_lg_452{
