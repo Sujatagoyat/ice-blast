@@ -8,7 +8,7 @@ import RightTick from '../assets/images/svg/right-tick-mark.svg'
 
 function HeroSection() {
   return (
-    <div className='hero-bg-img min-vh-100 h_lg_954 h_md_700 h-500 pt-14 d-flex flex-column'>
+    <div className='hero-bg-img min_vh_100 h_lg_954 h_md_700 h_500 pt-14 d-flex flex-column'>
       <div className="container">
         <div className='d-flex align-items-center justify-content-lg-between gap-lg-0 gap-4 ps-5 pe-5 overflow-x-auto'>
           <div className='d-flex gap-10'>

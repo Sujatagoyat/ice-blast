@@ -671,6 +671,9 @@ background: var(--fc-orange);
  .max_w_lg_452{
   max-width: 452px;
  }
+ .min_vh_100{
+  min-height: 100vh;
+ }
 
 }
 @media (min-width:1439.99px) {
